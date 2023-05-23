@@ -16,18 +16,31 @@ Sure, here are 100 common JavaScript problems and their respective solutions. Pl
     ```javascript
     const sumArray = (arr) => arr.reduce((sum, num) => sum + num, 0);
     ```
+const sumArray = (arr) => arr.reduce((sum, num)) => sum + num, 0); 
+
+
 5. **Find the largest number in an array**: Use the `Math.max()` function combined with the spread operator.
     ```javascript
     const largestNumber = (arr) => Math.max(...arr);
     ```
+
+
+
 6. **Find the smallest number in an array**: Similar to the above, use `Math.min()`.
     ```javascript
     const smallestNumber = (arr) => Math.min(...arr);
     ```
+
+const smallestNumber = (arr) =
+
 7. **Remove duplicates from an array**: You can use a `Set` to quickly remove duplicates.
     ```javascript
     const removeDuplicates = (arr) => [...new Set(arr)];
     ```
+
+
+
+
 8. **Check if a string is a palindrome**: A palindrome is a word that reads the same backward as forward.
     ```javascript
     const isPalindrome = (str) => {
@@ -35,6 +48,10 @@ Sure, here are 100 common JavaScript problems and their respective solutions. Pl
       return str === reversed;
     }
     ```
+
+
+
+
 9. **Find the factorial of a number**: You can use a recursive function to find the factorial.
     ```javascript
     const factorial = (num) => num === 0 ? 1 : num * factorial(num - 1);

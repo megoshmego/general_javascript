@@ -10,6 +10,8 @@ let name = prompt("What's your name?");
 console.log(name);
 ```
 
+
+
 1. `console.log()`: Outputs a message to the web console.
 ```javascript
 console.log("Hello, world!");
@@ -22,12 +24,20 @@ let num = parseInt(str);
 console.log(num); // Output: 123
 ```
 
+let str = "123";
+let num = parseInt(str);
+console.log(num);
+
+
+
 1. `parseFloat()`: Converts a string to a floating-point number.
 ```javascript
 let str = "123.45";
 let num = parseFloat(str);
 console.log(num); // Output: 123.45
 ```
+
+
 
 1. `isNaN()`: Determines whether a value is an illegal number.
 ```javascript
@@ -53,11 +63,18 @@ let num = 123;
 console.log(String(num)); // Output: "123"
 ```
 
+let num = 123;
+console.log(String(num));
+
 1.  `Boolean()`: Converts an object's value to a boolean.
 ```javascript
 let str = "Hello";
 console.log(Boolean(str)); // Output: true
 ```
+
+let str = "Hello";
+console.log(Boolean(str));
+
 
 1.  `encodeURI()`: Encodes a URI.
 ```javascript
